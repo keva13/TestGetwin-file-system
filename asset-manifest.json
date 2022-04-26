@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TestGetwin-file-system/static/css/main.6ff5e403.css",
+    "main.css": "/TestGetwin-file-system/static/css/main.fd562006.css",
     "main.js": "/TestGetwin-file-system/static/js/main.1c0af691.js",
     "static/js/787.28cb0dcd.chunk.js": "/TestGetwin-file-system/static/js/787.28cb0dcd.chunk.js",
     "static/media/icon-msword-file.svg": "/TestGetwin-file-system/static/media/icon-msword-file.cdab05d93ce1df787e58a0f144394334.svg",
@@ -11,12 +11,12 @@
     "static/media/icon-file.svg": "/TestGetwin-file-system/static/media/icon-file.a0f3652ef1f6297142d2d2d1c8c2a670.svg",
     "static/media/icon-image-file.svg": "/TestGetwin-file-system/static/media/icon-image-file.b08126ff383d9a000b2c9e8038a1982c.svg",
     "index.html": "/TestGetwin-file-system/index.html",
-    "main.6ff5e403.css.map": "/TestGetwin-file-system/static/css/main.6ff5e403.css.map",
+    "main.fd562006.css.map": "/TestGetwin-file-system/static/css/main.fd562006.css.map",
     "main.1c0af691.js.map": "/TestGetwin-file-system/static/js/main.1c0af691.js.map",
     "787.28cb0dcd.chunk.js.map": "/TestGetwin-file-system/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ff5e403.css",
+    "static/css/main.fd562006.css",
     "static/js/main.1c0af691.js"
   ]
 }
