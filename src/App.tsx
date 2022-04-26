@@ -20,11 +20,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<FolderList folders={folders} />}/>
-          <Route path='/:folder' element={<FilesList folders={folders} />}/>
+          <Route path='/TestGetwin-file-system/' element={<FolderList folders={folders} />}/>
+          <Route path='/TestGetwin-file-system/:folder' element={<FilesList folders={folders} />}/>
           <Route
               path="*"
-              element={<Navigate to='/' replace />}
+              element={<Navigate to='/TestGetwin-file-system/' replace />}
           />
         </Routes>
       </BrowserRouter>

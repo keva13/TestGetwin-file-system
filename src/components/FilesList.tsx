@@ -2,23 +2,14 @@ import React, {useEffect, useState} from 'react';
 import { getFolders } from '../services/folders.service';
 import icon_folder from '../assets/images/icon-folder.svg';
 import './FileList.scss';
+import './FolderList.scss';
 import { useNavigate, useParams } from 'react-router';
 import { getFileIcon } from '../utils/getFileIcon';
 import Filters from './Filters';
 import { FileTypes_sort_field, sort_direction } from '../types/sortTypes';
+import { fileType } from '../types/fileTypes';
 
 
-interface fileType {
-    name:string,
-    type: string,
-    size:number,
-    atime:number,
-    mtime:number,
-    dev:number,
-}
-interface foldersType {
-    [key: string]: fileType[];
-}
 interface props {
     folders: {};
 }

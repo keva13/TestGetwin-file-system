@@ -14,7 +14,7 @@ const FolderList: React.FC<props> = ({folders}) => {
         <div className='folderList'>
             {Object.keys(folders).map((folder)=>{
                 return (
-                    <div  onClick={()=>{history("/"+folder)}} key={folder} className='fileOrFolder folder'>
+                    <div  onClick={()=>{history("/TestGetwin-file-system/"+folder)}} key={folder} className='fileOrFolder folder'>
                         <img src={icon_folder} alt="" />
                         <div className="name">{folder}</div>
                     </div>
