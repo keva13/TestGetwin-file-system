@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ff5e403.css",
-    "main.js": "/static/js/main.a73d8fc8.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/icon-msword-file.svg": "/static/media/icon-msword-file.cdab05d93ce1df787e58a0f144394334.svg",
-    "static/media/icon-pdf-file.svg": "/static/media/icon-pdf-file.50434dc124d2b35f8089551d73562d22.svg",
-    "static/media/icon-sheets-file.svg": "/static/media/icon-sheets-file.956f9267bc1bb7c7b1c53d6db5dda015.svg",
-    "static/media/icon-folder.svg": "/static/media/icon-folder.5f1e9dd604e02f8c9badb533ea9dfb75.svg",
-    "static/media/icon-empty-file.svg": "/static/media/icon-empty-file.fd53a484d78c463141081a7c4e8add6f.svg",
-    "static/media/icon-file.svg": "/static/media/icon-file.a0f3652ef1f6297142d2d2d1c8c2a670.svg",
-    "static/media/icon-image-file.svg": "/static/media/icon-image-file.b08126ff383d9a000b2c9e8038a1982c.svg",
-    "index.html": "/index.html",
-    "main.6ff5e403.css.map": "/static/css/main.6ff5e403.css.map",
-    "main.a73d8fc8.js.map": "/static/js/main.a73d8fc8.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/TestGetwin-file-system/static/css/main.6ff5e403.css",
+    "main.js": "/TestGetwin-file-system/static/js/main.112e80cb.js",
+    "static/js/787.28cb0dcd.chunk.js": "/TestGetwin-file-system/static/js/787.28cb0dcd.chunk.js",
+    "static/media/icon-msword-file.svg": "/TestGetwin-file-system/static/media/icon-msword-file.cdab05d93ce1df787e58a0f144394334.svg",
+    "static/media/icon-pdf-file.svg": "/TestGetwin-file-system/static/media/icon-pdf-file.50434dc124d2b35f8089551d73562d22.svg",
+    "static/media/icon-sheets-file.svg": "/TestGetwin-file-system/static/media/icon-sheets-file.956f9267bc1bb7c7b1c53d6db5dda015.svg",
+    "static/media/icon-folder.svg": "/TestGetwin-file-system/static/media/icon-folder.5f1e9dd604e02f8c9badb533ea9dfb75.svg",
+    "static/media/icon-empty-file.svg": "/TestGetwin-file-system/static/media/icon-empty-file.fd53a484d78c463141081a7c4e8add6f.svg",
+    "static/media/icon-file.svg": "/TestGetwin-file-system/static/media/icon-file.a0f3652ef1f6297142d2d2d1c8c2a670.svg",
+    "static/media/icon-image-file.svg": "/TestGetwin-file-system/static/media/icon-image-file.b08126ff383d9a000b2c9e8038a1982c.svg",
+    "index.html": "/TestGetwin-file-system/index.html",
+    "main.6ff5e403.css.map": "/TestGetwin-file-system/static/css/main.6ff5e403.css.map",
+    "main.112e80cb.js.map": "/TestGetwin-file-system/static/js/main.112e80cb.js.map",
+    "787.28cb0dcd.chunk.js.map": "/TestGetwin-file-system/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ff5e403.css",
-    "static/js/main.a73d8fc8.js"
+    "static/js/main.112e80cb.js"
   ]
 }
