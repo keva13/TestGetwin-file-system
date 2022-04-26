@@ -1,24 +1,33 @@
-import React from 'react';
+import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import FolderList from './components/FolderList';
+import { getFolders } from './services/folders.service';
+import FilesList from './components/FilesList';
 
 function App() {
+  const [folders, setFolders] = useState({})
+
+  useEffect(()=>{
+      getFolders().then((response)=>{
+          console.log(response.data.files)
+          setFolders(response.data.files)
+      })
+  },[])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<FolderList folders={folders} />}/>
+          <Route path='/:folder' element={<FilesList folders={folders} />}/>
+          <Route
+              path="*"
+              element={<Navigate to='/' replace />}
+          />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
